@@ -53,9 +53,9 @@
 
         ctrl_layer {
             bindings = <
-&trans  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &trans              &trans           &kp HOME   &kp UP     &kp END   &trans     &trans      
-&trans  &kp K_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &trans           &trans              &trans           &trans     &kp PG_UP  &kp LEFT  &kp RIGHT  &trans
-&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI     &rgb_ug RGB_BRD  &trans     &kp PG_DN  &kp DOWN   &trans    &trans 
+&trans  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &trans              &kp HOME         &kp END    &kp HOME   &kp UP     &kp UP  &trans
+&trans  &kp K_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &trans           &trans              &kp PG_UP        &kp LEFT   &kp LEFT   &kp RIGHT  &trans  &trans
+&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI     &rgb_ug RGB_BRD  &trans     &kp PG_DN  &kp DOWN   &trans  &trans 
                                           &trans           &trans           &trans              &trans           &trans     &trans
             >;
         };
